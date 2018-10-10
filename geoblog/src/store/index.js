@@ -4,5 +4,10 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
-  // TODO Options
+  state () {
+    return {
+      user: null,
+    }
+  },
+
 })
